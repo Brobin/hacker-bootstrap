@@ -31,6 +31,8 @@ Finally, reference the css in your html and h4ck away!
 
     <link href="css/hacker.css" rel="stylesheet">
 
+Or, you can just pick up the latest `hacker.css <http://brobin.github.io/hacker-bootstrap/css/hacker.css>`_
+
 ------------
 Contributing
 ------------
