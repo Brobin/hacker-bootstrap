@@ -2,7 +2,9 @@
 Hacker Bootstrap
 ================
 
-A Bootstrap theme for 1337 h@ckers. Inspired by the classic green on black terminal style.
+A Bootstrap theme for 1337 h4ckers. Inspired by the classic green on black terminal style.
+
+Check out the `example site <http://brobin.github.io/hacker-bootstrap/>`_!
 
 -----
 Usage
@@ -23,7 +25,7 @@ Then compile by using the 1337 comile script
 
     $ ./compile.sh
 
-Finally, reference the css in your html and h@ck away!
+Finally, reference the css in your html and h4ck away!
 
 .. code-block:: html
 
