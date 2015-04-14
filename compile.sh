@@ -1,0 +1,1 @@
+lessc -x less/hacker.less css/hacker.css
