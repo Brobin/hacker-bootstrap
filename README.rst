@@ -13,6 +13,14 @@ Check out the `example site <http://brobin.github.io/hacker-bootstrap/>`_!
 Usage
 -----
 
+You can pick up the latest `hacker.css <http://brobin.github.io/hacker-bootstrap/css/hacker.css>`_ and reference the css in your page.
+
+.. code-block:: html
+
+    <link href="css/hacker.css" rel="stylesheet">
+
+**Or** you could be a real h4x0r.
+
 **H4X0RS ONLY**
 
 Make sure you have bootstrap and less installed. Open up your h4x0r terminal and type the following:
@@ -27,14 +35,6 @@ Then compile by using the 1337 compile script:
 .. code-block:: bash
 
     $ ./compile.sh
-
-Finally, reference the css in your html and h4ck away!
-
-.. code-block:: html
-
-    <link href="css/hacker.css" rel="stylesheet">
-
-Or, you can just pick up the latest `hacker.css <http://brobin.github.io/hacker-bootstrap/css/hacker.css>`_
 
 ------------
 Contributing
