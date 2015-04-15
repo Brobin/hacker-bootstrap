@@ -1,6 +1,7 @@
 
 
 .. image:: haxor.png
+    :align: center
 
 ---------------------
 
