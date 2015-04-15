@@ -1,5 +1,8 @@
 
+
 .. image:: haxor.png
+
+---------------------
 
 A Bootstrap theme for 1337 h4x0rs. Inspired by the classic green on black terminal style. This theme will make your website 1337.
 
