@@ -48,7 +48,7 @@ by Tobin Brown, 2015
 @font-family-sans-serif:    Monospace;
 @font-family-serif:         Monospace;
 @font-family-monospace:     Monospace;
-@font-family-base:          @font-family-sans-serif;
+@font-family-base:          @font-family-monospace;
 @font-size-base:            14px;
 @font-size-large:           ceil(@font-size-base * 1.25);
 @font-size-small:           ceil(@font-size-base * 0.85);
@@ -73,19 +73,19 @@ by Tobin Brown, 2015
 @btn-default-border:        #111111;
 @btn-primary-color:         @hacker-bg;
 @btn-primary-bg:            @brand-primary;
-@btn-primary-border:        darken(@btn-primary-bg, 5%);
+@btn-primary-border:        @btn-default-border;
 @btn-success-color:         @hacker-bg;
 @btn-success-bg:            @brand-success;
-@btn-success-border:        darken(@btn-success-bg, 5%);
+@btn-success-border:        @btn-default-border;
 @btn-warning-color:         @hacker-bg;
 @btn-warning-bg:            @brand-warning;
-@btn-warning-border:        darken(@btn-warning-bg, 5%);
+@btn-warning-border:        @btn-default-border;
 @btn-danger-color:          @hacker-bg;
 @btn-danger-bg:             @brand-danger;
-@btn-danger-border:         darken(@btn-danger-bg, 5%);
+@btn-danger-border:         @btn-default-border;
 @btn-info-color:            @hacker-bg;
 @btn-info-bg:               @brand-info;
-@btn-info-border:           darken(@btn-info-bg, 5%);
+@btn-info-border:           @btn-default-border;
 @btn-link-disabled-color:   @gray-light;
 
 
@@ -104,7 +104,7 @@ by Tobin Brown, 2015
 @dropdown-link-hover-color:     @hacker-bg;
 @dropdown-link-hover-bg:        @dropdown-link-active-bg;
 @dropdown-link-disabled-color:  @gray-light;
-@dropdown-header-color:         @gray-light;
+@dropdown-header-color:         lighten(@hacker-bg, 50%);
 @dropdown-caret-color:          #000;
 
 
@@ -283,7 +283,7 @@ by Tobin Brown, 2015
 @list-group-bg:                 lighten(@hacker-bg, 10%);
 @list-group-border:             #222222;
 @list-group-border-radius:      @border-radius-base;
-@list-group-hover-bg:           darken(@hacker-bg, 10%);
+@list-group-hover-bg:           darken(@hacker-bg, 5%);
 @list-group-active-color:       @hacker-bg;
 @list-group-active-bg:          @hacker;
 @list-group-active-border:      @list-group-active-bg;
@@ -302,22 +302,22 @@ by Tobin Brown, 2015
 @modal-footer-border-color:             @modal-header-border-color;
 
 
+// Badge
+@badge-color:   @hacker;
+@badge-bg:      @hacker-bg;
+
+
 // Progress
 @progress-bg:   lighten(@hacker-bg, 10%);
 
 
 // Breadcrumb
-@breadcrumb-bg:     lighten(@hacker-bg, 10%);
-@breadcrumb-color:  @hacker;
+@breadcrumb-bg:             lighten(@hacker-bg, 10%);
+@breadcrumb-color:          @hacker;
+@breadcrumb-active-color:   darken(@hacker, 20%);
 
 
 // Labels
 @label-color:   @hacker-bg;
 
-
-// Sprites
-@icon-font-path: '../app/fonts/';
-@icon-font-name: glyphicons-halflings-regular;
-
-
-@hr-border: #666666;
+@hr-border: lighten(@hacker-bg, 10%);
