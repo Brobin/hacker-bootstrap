@@ -1,8 +1,7 @@
-================
-Hacker Bootstrap
-================
 
-A Bootstrap theme for 1337 h4x0rs. Inspired by the classic green on black terminal style.
+.. image:: haxor.png
+
+A Bootstrap theme for 1337 h4x0rs. Inspired by the classic green on black terminal style. This theme will make your website 1337.
 
 Check out the `example site <http://brobin.github.io/hacker-bootstrap/>`_!
 
