@@ -1,0 +1,23 @@
+{
+    "name": "hacker-bootstrap-tilde",
+    "version": "1.0.0",
+    "description": "a fork of brobin's h4x0r bootstrap theme",
+    "author": "Ben Harris <ben@tilde.team>",
+    "scripts": {
+        "build": "lessc less/hacker.less css/hacker.css --clean-css=\"--s1 --advanced --compatibility=ie8\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tilde-team/hacker-bootstrap"
+    },
+    "bugs": {
+        "url": "https://github.com/tilde-team/hacker-bootstrap/issues"
+    },
+    "dependencies": {
+        "less": "2.7.3",
+        "bootstrap": "3.3.7",
+        "less-plugin-clean-css": "1.5.1"
+    },
+    "preferGlobal": true,
+    "license": "MIT"
+}
