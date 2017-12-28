@@ -49,21 +49,29 @@ by Tobin Brown, 2015
 @font-family-serif:         Monospace;
 @font-family-monospace:     Monospace;
 @font-family-base:          @font-family-monospace;
-@font-size-base:            14px;
+@font-size-base:            16px;
 @font-size-large:           ceil(@font-size-base * 1.25);
 @font-size-small:           ceil(@font-size-base * 0.85);
-@font-size-h1:              floor((@font-size-base * 2.6));
-@font-size-h2:              floor((@font-size-base * 2.15));
-@font-size-h3:              floor((@font-size-base * 1.7));
-@font-size-h4:              floor((@font-size-base * 1.25));
-@font-size-h5:              @font-size-base;
-@font-size-h6:              floor((@font-size-base * 0.85));
+@font-size-h1:              floor((@font-size-base * 3));
+@font-size-h2:              floor((@font-size-base * 2.5));
+@font-size-h3:              floor((@font-size-base * 2));
+@font-size-h4:              floor((@font-size-base * 1.5));
+@font-size-h5:              floor((@font-size-base * 1.25));
+@font-size-h6:              @font-size-base;
 @line-height-base:          1.428571429;
 @line-height-computed:      floor(@font-size-base * @line-height-base);
 @headings-font-family:      @font-family-base;
 @headings-font-weight:      500;
-@headings-line-height:      1.1;
+@headings-line-height:      1.2;
 @headings-color:            inherit;
+
+// code
+
+@code-bg:                   lighten(@hacker-bg, 10%);
+
+@kbd-bg:                    lighten(@hacker-bg, 20%);
+
+@pre-bg:                    lighten(@hacker-bg, 15%);
 
 
 // Buttons
@@ -321,3 +329,4 @@ by Tobin Brown, 2015
 @label-color:   @hacker-bg;
 
 @hr-border: lighten(@hacker-bg, 10%);
+
