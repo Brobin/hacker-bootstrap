@@ -1,3 +1,7 @@
+# ignore build artifact
+css/hacker.css
+
+
 # Logs
 logs
 *.log
