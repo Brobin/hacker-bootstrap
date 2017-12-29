@@ -5,7 +5,7 @@
     "author": "Ben Harris <ben@tilde.team>",
     "scripts": {
         "build": "lessc less/hacker.less dist/hacker.css --clean-css=\"--s1 --advanced --compatibility=ie8\"",
-        "mv": "cp dist/hacker.css /var/www/html/tilde.team/public_html/css/."
+        "cp": "cp dist/hacker.css /var/www/html/tilde.team/public_html/css/."
     },
     "repository": {
         "type": "git",
