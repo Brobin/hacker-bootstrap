@@ -14,8 +14,9 @@
         "url": "https://github.com/tilde-team/hacker-bootstrap/issues"
     },
     "dependencies": {
-        "less": "2.7.3",
+        "@ibm/type": "^0.5.3",
         "bootstrap": "3.3.7",
+        "less": "2.7.3",
         "less-plugin-clean-css": "1.5.1"
     },
     "preferGlobal": true,
