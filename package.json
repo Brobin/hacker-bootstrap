@@ -4,7 +4,8 @@
     "description": "a fork of brobin's h4x0r bootstrap theme",
     "author": "Ben Harris <ben@tilde.team>",
     "scripts": {
-        "build": "lessc less/hacker.less css/hacker.css --clean-css=\"--s1 --advanced --compatibility=ie8\""
+        "build": "lessc less/hacker.less dist/hacker.css --clean-css=\"--s1 --advanced --compatibility=ie8\"",
+        "mv": "cp dist/hacker.css /var/www/html/tilde.team/public_html/css/."
     },
     "repository": {
         "type": "git",
